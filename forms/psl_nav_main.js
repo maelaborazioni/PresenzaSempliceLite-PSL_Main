@@ -84,7 +84,7 @@ function onAction$btn_quit(event)
 	if(!getSection().onQuit(event))
 		forms.psl_status_bar.setStatusError('i18n:ma.err.wiz_state_save');
 	else
-		security.logout(application.getSolutionName());
+		globals.ma_sec_logout();
 }
 
 /**
