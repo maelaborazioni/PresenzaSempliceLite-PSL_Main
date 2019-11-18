@@ -1,4 +1,4 @@
-/**
+	/**
  * @properties={typeid:24,uuid:"55195087-86ED-4338-90B0-0B113B97880F"}
  */
 function getParentMenu()
