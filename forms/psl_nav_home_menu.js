@@ -13,7 +13,10 @@ function getParentMenu()
  */
 function openSection(section)
 {
-	forms.psl_nav_main.gotoSection(section);
+	if(section == "domande_risposte")
+	    application.showURL("http://www.domanderispostelavoro.it/portal");
+	else
+		forms.psl_nav_main.gotoSection(section);
 }
 
 /**
